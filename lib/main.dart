@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
           accentColor: Color(0xffed4b63),
           primaryColorDark: Color(0xffe93751),
           backgroundColor: Color(0xfffcfcfc)),
-      home: MyHomePage(title: 'My Recipes'),
+      home: MyHomePage(),
     );
   }
 }

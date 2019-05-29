@@ -1,21 +1,18 @@
 import 'package:flutter/material.dart';
 
-class RecipeDetails extends StatefulWidget {
-  RecipeDetails({Key key, this.title}) : super(key: key);
-  final String title;
-
+class AddRecipe extends StatefulWidget {
   @override
-  RecipeDetailsState createState() => RecipeDetailsState();
+  AddRecipeState createState() => AddRecipeState();
 }
 
-class RecipeDetailsState extends State<RecipeDetails> {
+class AddRecipeState extends State<AddRecipe> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget.title),
+        title: Text('Add new recipe'),
       ),
-
     );
   }
 }
+
